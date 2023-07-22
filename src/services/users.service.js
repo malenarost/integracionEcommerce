@@ -1,4 +1,4 @@
-import { UserModel } from "../DAO/models/users.model.js";
+import { UserModel } from "../DAO/models/users.models.js";
 import { createHash, isValidPassword } from "../utils/bcrypt.js";
 class UserService {
   async findUser(email, password) {

@@ -1,6 +1,6 @@
 import passport from "passport";
 import local from "passport-local";
-import { UserModel } from "../DAO/models/users.model.js";
+import { UserModel } from "../DAO/models/users.models.js";
 import { isValidPassword } from "./bcrypt.js";
 import { userService } from "../services/users.service.js";
 const LocalStrategy = local.Strategy;
